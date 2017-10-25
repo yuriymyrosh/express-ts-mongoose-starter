@@ -1,0 +1,38 @@
+{
+  "name": "express.local",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist",
+    "test": "tsc && mocha dist/**/*.spec.js",
+    "lint": "eslint src --ext ts",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^4.7.24",
+    "@types/node": "7.0.22",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "express": "4.15.3",
+    "mongoose": "^4.12.4",
+    "nodemon": "1.11.0"
+  },
+  "devDependencies": {
+    "@types/mocha": "2.2.41",
+    "@types/node": "7.0.22",
+    "eslint": "4.0.0",
+    "eslint-config-airbnb-base": "11.2.0",
+    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-promise": "3.5.0",
+    "mocha": "3.4.2",
+    "supertest": "3.0.0",
+    "tsc": "1.20150623.0",
+    "typescript": "2.3.3",
+    "typescript-eslint-parser": "3.0.0"
+  }
+}
