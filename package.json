@@ -19,7 +19,7 @@
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "express": "4.15.3",
-    "mongoose": "^4.12.4",
+    "mongoose": "^5.9.1",
     "nodemon": "1.11.0"
   },
   "devDependencies": {
