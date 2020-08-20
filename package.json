@@ -16,7 +16,7 @@
   "dependencies": {
     "@types/mongoose": "^4.7.24",
     "@types/node": "7.0.22",
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.2",
     "express": "4.15.3",
     "mongoose": "^5.9.1",
